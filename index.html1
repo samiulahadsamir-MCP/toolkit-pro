@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ToolKit Pro</title>
+    <style>
+        body { font-family: Arial; background: linear-gradient(135deg, #667eea, #764ba2); color: white; text-align: center; padding: 50px; }
+    </style>
+</head>
+<body>
+    <h1>🛠️ ToolKit Pro</h1>
+    <p>Your free online tools website!</p>
+    <p>✅ Site is working!</p>
+</body>
+</html>
