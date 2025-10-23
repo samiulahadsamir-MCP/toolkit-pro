@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToolKit Pro - Free Online Tools</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: linear-gradient(135deg, #667eea, #764ba2); min-height: 100vh; padding: 20px; color: white; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header { background: rgba(255,255,255,0.95); padding: 30px; border-radius: 15px; text-align: center; margin-bottom: 20px; color: #333; }
+        .logo { font-size: 2.5em; font-weight: bold; margin-bottom: 10px; }
+        .tools-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .tool-card { background: rgba(255,255,255,0.95); padding: 20px; border-radius: 10px; color: #333; }
+        button { background: #667eea; color: white; border: none; padding: 15px; border-radius: 8px; width: 100%; font-size: 16px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🛠️ ToolKit Pro</div>
+            <p>100% Free Online Tools - No Premium Features</p>
+        </header>
+        
+        <div class="tools-grid">
+            <div class="tool-card">
+                <h3>💰 Currency Converter</h3>
+                <p>Convert between different currencies</p>
+                <button onclick="alert('Currency Converter Tool')">Use Tool</button>
+            </div>
+            <div class="tool-card">
+                <h3>🔐 Password Generator</h3>
+                <p>Create secure passwords instantly</p>
+                <button onclick="alert('Password Generator Tool')">Use Tool</button>
+            </div>
+            <div class="tool-card">
+                <h3>📊 Unit Converter</h3>
+                <p>Convert length, weight, temperature</p>
+                <button onclick="alert('Unit Converter Tool')">Use Tool</button>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px; color: white;">
+            <p>✨ 100% Free Forever • 🚀 No Premium Features</p>
+        </div>
+    </div>
+</body>
+</html>
